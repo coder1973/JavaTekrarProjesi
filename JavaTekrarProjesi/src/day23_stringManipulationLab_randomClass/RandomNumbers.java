@@ -1,0 +1,22 @@
+package day23_stringManipulationLab_randomClass;
+
+import java.util.Random;
+
+public class RandomNumbers {
+
+	public static void main(String[] args) {
+		
+		Random rn = new Random();
+		
+		System.out.println(rn.nextInt());
+		System.out.println(rn.nextDouble());
+		System.out.println(rn.nextFloat());
+		System.out.println(rn.nextBoolean());
+		System.out.println(rn.nextInt(50)); //0-49
+		System.out.println(rn.nextInt(10)+5);//5-14
+		System.out.println(rn.nextInt((40000-20000)+1)+20000);
+		
+
+	}
+
+}

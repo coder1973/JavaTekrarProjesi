@@ -1,0 +1,19 @@
+package day20_StringManipulation_Part2;
+
+public class Replace {
+
+	public static void main(String[] args) {
+
+		String str  = "Moscow is a capital of Russia";
+		
+		str = str.replace("Moscow", "Baku").replace("Russia", "Azerbaijan");
+		System.out.println(str);
+		
+		String email = "firstName_LastName@gmail.com";
+		String company = "capitalone";
+		String newEmail = email.replace("gmail.com", company);
+		System.out.println(newEmail);
+		System.out.println(email);
+	}
+
+}
