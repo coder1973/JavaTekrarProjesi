@@ -7,14 +7,15 @@ public class Tesla extends ElectricCar{
 	}
 	@Override
 	public void start() {
-		// TODO Auto-generated method stub
+		System.out.println("Tesla is starting quitely...");
+		System.out.println("Change to drive model...");
 	}
 	@Override
 	public void charge() {
-		// TODO Auto-generated method stub
+		System.out.println("Tesla charging - Plugin to Electric outlet...");
 	}
 	@Override
 	public void drive() {
-		// TODO Auto-generated method stub
+		System.out.println("tesla is driving");
 	}
 }

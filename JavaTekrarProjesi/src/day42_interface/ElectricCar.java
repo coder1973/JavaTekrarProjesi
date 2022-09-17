@@ -1,7 +1,7 @@
 package day42_interface;
 
 public abstract class ElectricCar {
-	
+
 	private String model;
 	private double price;
 	private String color;
