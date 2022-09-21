@@ -1,6 +1,6 @@
 package day43_polymorpism;
 
-public class TestShake {
+public class TestShape {
 
 	public static void main(String[] args) {
 		
